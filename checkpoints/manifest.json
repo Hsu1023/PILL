@@ -1,0 +1,176 @@
+{
+  "format": "pill_probe_v1",
+  "weights": [
+    {
+      "id": "llada-base/python-single",
+      "path": "checkpoints/llada-base/python-single.pt",
+      "asset": "llada-base--python-single.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Base",
+      "task": "python-single",
+      "bytes": 25533281,
+      "sha256": "0de0cdb65191a372d65f820f5e96227968b1a84a696f9db369e443f4bc1a45d0"
+    },
+    {
+      "id": "llada-base/python-multi",
+      "path": "checkpoints/llada-base/python-multi.pt",
+      "asset": "llada-base--python-multi.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Base",
+      "task": "python-multi",
+      "bytes": 25533267,
+      "sha256": "38eb3bbdd18a761934480eceb01c59e8f4ee85eae5d3178b50c36fe7bdbecfba"
+    },
+    {
+      "id": "llada-base/multilingual-code",
+      "path": "checkpoints/llada-base/multilingual-code.pt",
+      "asset": "llada-base--multilingual-code.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Base",
+      "task": "multilingual-code",
+      "bytes": 25533337,
+      "sha256": "726fa69c9f492347fce97070876839e0591886a6364aac6f6512c32e0cbbddb1"
+    },
+    {
+      "id": "llada-base/text",
+      "path": "checkpoints/llada-base/text.pt",
+      "asset": "llada-base--text.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Base",
+      "task": "text",
+      "bytes": 25532707,
+      "sha256": "21181c0bbcea8c44f5cc23d8d002dd2f85e7385ec1a5606baec67c7bb4b00595"
+    },
+    {
+      "id": "llada-instruct/python-single",
+      "path": "checkpoints/llada-instruct/python-single.pt",
+      "asset": "llada-instruct--python-single.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Instruct",
+      "task": "python-single",
+      "bytes": 25533281,
+      "sha256": "4c0db214ce7a4fc0f684d4c4bf36c8661802c209eed279a56ad8a01840a30099"
+    },
+    {
+      "id": "llada-instruct/python-multi",
+      "path": "checkpoints/llada-instruct/python-multi.pt",
+      "asset": "llada-instruct--python-multi.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Instruct",
+      "task": "python-multi",
+      "bytes": 25533267,
+      "sha256": "778f9ed8d4a8bd30c3e2ee7d951f24322def2abf2245ce41d85b1421d9711ac5"
+    },
+    {
+      "id": "llada-instruct/multilingual-code",
+      "path": "checkpoints/llada-instruct/multilingual-code.pt",
+      "asset": "llada-instruct--multilingual-code.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Instruct",
+      "task": "multilingual-code",
+      "bytes": 25533337,
+      "sha256": "8eeeda4129616ef93f62a2a528f48931ed5fb93261f0a11f32d0d3e0cc9df8b3"
+    },
+    {
+      "id": "llada-instruct/text",
+      "path": "checkpoints/llada-instruct/text.pt",
+      "asset": "llada-instruct--text.pt",
+      "model_name": "GSAI-ML/LLaDA-8B-Instruct",
+      "task": "text",
+      "bytes": 25532707,
+      "sha256": "35c21ae7d71932005cc40800a1e8a3d904d29899af54101723244a32286557aa"
+    },
+    {
+      "id": "dream/python-single",
+      "path": "checkpoints/dream/python-single.pt",
+      "asset": "dream--python-single.pt",
+      "model_name": "Dream-org/Dream-v0-Base-7B",
+      "task": "python-single",
+      "bytes": 22375265,
+      "sha256": "c6587cf15095fd14db985ad2706b4dc83a23da5e1e2ee9dec328f26f03fbb280"
+    },
+    {
+      "id": "dream/python-multi",
+      "path": "checkpoints/dream/python-multi.pt",
+      "asset": "dream--python-multi.pt",
+      "model_name": "Dream-org/Dream-v0-Base-7B",
+      "task": "python-multi",
+      "bytes": 22375251,
+      "sha256": "a15b05c0adfb56f2cdd5a310d4283560be9544adb74333d1eeffac94518f346d"
+    },
+    {
+      "id": "dream/multilingual-code",
+      "path": "checkpoints/dream/multilingual-code.pt",
+      "asset": "dream--multilingual-code.pt",
+      "model_name": "Dream-org/Dream-v0-Base-7B",
+      "task": "multilingual-code",
+      "bytes": 22375321,
+      "sha256": "f7e8012094974c008c137404499001175f6756975ef1ddf778205c1cdcb98b16"
+    },
+    {
+      "id": "dream/text",
+      "path": "checkpoints/dream/text.pt",
+      "asset": "dream--text.pt",
+      "model_name": "Dream-org/Dream-v0-Base-7B",
+      "task": "text",
+      "bytes": 22374691,
+      "sha256": "1343dc3e4f5223d66d2b90706e2551740bd8ddd74996bd632e9df8b6f6f6fb85"
+    },
+    {
+      "id": "dreamcoder/python-single",
+      "path": "checkpoints/dreamcoder/python-single.pt",
+      "asset": "dreamcoder--python-single.pt",
+      "model_name": "Dream-org/Dream-Coder-v0-Base-7B",
+      "task": "python-single",
+      "bytes": 22375265,
+      "sha256": "89048928cc16582f07073d54f53c46c454eb354fccb425d27a254148e00de83a"
+    },
+    {
+      "id": "dreamcoder/python-multi",
+      "path": "checkpoints/dreamcoder/python-multi.pt",
+      "asset": "dreamcoder--python-multi.pt",
+      "model_name": "Dream-org/Dream-Coder-v0-Base-7B",
+      "task": "python-multi",
+      "bytes": 22375251,
+      "sha256": "2f99492a90c1ad383de66f0cd1ffa5818264de67c9009b24313b227496f6ff10"
+    },
+    {
+      "id": "dreamcoder/multilingual-code",
+      "path": "checkpoints/dreamcoder/multilingual-code.pt",
+      "asset": "dreamcoder--multilingual-code.pt",
+      "model_name": "Dream-org/Dream-Coder-v0-Base-7B",
+      "task": "multilingual-code",
+      "bytes": 22375385,
+      "sha256": "e7bda62f92ed83801ada51d6b40cc7a8a8cf9e3c8d63cdb994547c17fb5ef879"
+    },
+    {
+      "id": "llada-moe/python-single",
+      "path": "checkpoints/llada-moe/python-single.pt",
+      "asset": "llada-moe--python-single.pt",
+      "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
+      "task": "python-single",
+      "bytes": 12901217,
+      "sha256": "1bc1d3d83c0ee0cc0c88faac3ec8e4c21dfab8e91387582b61cb8dc675fca576"
+    },
+    {
+      "id": "llada-moe/python-multi",
+      "path": "checkpoints/llada-moe/python-multi.pt",
+      "asset": "llada-moe--python-multi.pt",
+      "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
+      "task": "python-multi",
+      "bytes": 12901203,
+      "sha256": "465a98af8281cfa0feb07f4e887989da02c084033ced94b7161a9fce0e0f1965"
+    },
+    {
+      "id": "llada-moe/multilingual-code",
+      "path": "checkpoints/llada-moe/multilingual-code.pt",
+      "asset": "llada-moe--multilingual-code.pt",
+      "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
+      "task": "multilingual-code",
+      "bytes": 12901337,
+      "sha256": "b33e0fb5be84ada0001868ae89f0244877b19eb4a687be01081ab00e2f08a5dd"
+    },
+    {
+      "id": "llada-moe/text",
+      "path": "checkpoints/llada-moe/text.pt",
+      "asset": "llada-moe--text.pt",
+      "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
+      "task": "text",
+      "bytes": 12900643,
+      "sha256": "aa531df55f57c829221de9636c57b72c4301454fa554a7c71a9303c5fe85167d"
+    }
+  ]
+}
