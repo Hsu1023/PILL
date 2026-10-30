@@ -131,10 +131,11 @@ See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Ret
 ## 📝 Citation
 
 ```bibtex
-@article{xu2026predict,
-  title={Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models},
+@inproceedings{xu2026predict,
+  title={Predict, don’t iterate: Efficient adaptive-length infilling for diffusion language models},
   author={Xu, Haobo and Chen, Sirui and Bei, Yuanchen and Chen, Lingjie and Yan, Yuchen and Fu, Dongqi and He, Jingrui and Tong, Hanghang},
-  journal={arXiv preprint arXiv:2609.02108},
+  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  pages={24171--24190},
   year={2026}
 }
 ```
