@@ -38,14 +38,21 @@ Each probe belongs to one **base model and task family**. Base-model weights are
 
 `multilingual-code` corresponds to the Java/C++ task family. `text` corresponds to natural-language infilling. The same probe can serve multiple benchmarks within its task family. There are 19 probes, approximately 393 MiB total.
 
-Weights are distributed as GitHub Release assets rather than committed to Git. The [manifest](checkpoints/manifest.json) records model IDs, asset names, sizes, and SHA-256 checksums. Select a published tag from [Releases](https://github.com/Hsu1023/PILL/releases), then run:
+All 19 probe checkpoints are included directly in this repository under `checkpoints/`. Clone the repository to obtain both code and weights:
+
+```bash
+git clone https://github.com/Hsu1023/PILL.git
+cd PILL
+```
+
+The [manifest](checkpoints/manifest.json) records model IDs, file paths, sizes, and SHA-256 checksums. To list available probes or verify/re-download an individual checkpoint:
 
 ```bash
 python scripts/download_weights.py --list
-python scripts/download_weights.py llada-base/python-single --tag <release-tag>
+python scripts/download_weights.py llada-base/python-single
 ```
 
-The downloader verifies the checksum and writes `checkpoints/llada-base/python-single.pt`. Local release preparations may already contain these files. The release checkpoint format is `pill_probe_v1`; research checkpoints are not accepted by this entry point.
+The downloader verifies the checksum and writes `checkpoints/llada-base/python-single.pt`. The checkpoint format is `pill_probe_v1`; research checkpoints are not accepted by this entry point.
 
 ## 🚀 Quick start
 

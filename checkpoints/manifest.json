@@ -4,7 +4,6 @@
     {
       "id": "llada-base/python-single",
       "path": "checkpoints/llada-base/python-single.pt",
-      "asset": "llada-base--python-single.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Base",
       "task": "python-single",
       "bytes": 25533281,
@@ -13,7 +12,6 @@
     {
       "id": "llada-base/python-multi",
       "path": "checkpoints/llada-base/python-multi.pt",
-      "asset": "llada-base--python-multi.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Base",
       "task": "python-multi",
       "bytes": 25533267,
@@ -22,7 +20,6 @@
     {
       "id": "llada-base/multilingual-code",
       "path": "checkpoints/llada-base/multilingual-code.pt",
-      "asset": "llada-base--multilingual-code.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Base",
       "task": "multilingual-code",
       "bytes": 25533337,
@@ -31,7 +28,6 @@
     {
       "id": "llada-base/text",
       "path": "checkpoints/llada-base/text.pt",
-      "asset": "llada-base--text.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Base",
       "task": "text",
       "bytes": 25532707,
@@ -40,7 +36,6 @@
     {
       "id": "llada-instruct/python-single",
       "path": "checkpoints/llada-instruct/python-single.pt",
-      "asset": "llada-instruct--python-single.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Instruct",
       "task": "python-single",
       "bytes": 25533281,
@@ -49,7 +44,6 @@
     {
       "id": "llada-instruct/python-multi",
       "path": "checkpoints/llada-instruct/python-multi.pt",
-      "asset": "llada-instruct--python-multi.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Instruct",
       "task": "python-multi",
       "bytes": 25533267,
@@ -58,7 +52,6 @@
     {
       "id": "llada-instruct/multilingual-code",
       "path": "checkpoints/llada-instruct/multilingual-code.pt",
-      "asset": "llada-instruct--multilingual-code.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Instruct",
       "task": "multilingual-code",
       "bytes": 25533337,
@@ -67,7 +60,6 @@
     {
       "id": "llada-instruct/text",
       "path": "checkpoints/llada-instruct/text.pt",
-      "asset": "llada-instruct--text.pt",
       "model_name": "GSAI-ML/LLaDA-8B-Instruct",
       "task": "text",
       "bytes": 25532707,
@@ -76,7 +68,6 @@
     {
       "id": "dream/python-single",
       "path": "checkpoints/dream/python-single.pt",
-      "asset": "dream--python-single.pt",
       "model_name": "Dream-org/Dream-v0-Base-7B",
       "task": "python-single",
       "bytes": 22375265,
@@ -85,7 +76,6 @@
     {
       "id": "dream/python-multi",
       "path": "checkpoints/dream/python-multi.pt",
-      "asset": "dream--python-multi.pt",
       "model_name": "Dream-org/Dream-v0-Base-7B",
       "task": "python-multi",
       "bytes": 22375251,
@@ -94,7 +84,6 @@
     {
       "id": "dream/multilingual-code",
       "path": "checkpoints/dream/multilingual-code.pt",
-      "asset": "dream--multilingual-code.pt",
       "model_name": "Dream-org/Dream-v0-Base-7B",
       "task": "multilingual-code",
       "bytes": 22375321,
@@ -103,7 +92,6 @@
     {
       "id": "dream/text",
       "path": "checkpoints/dream/text.pt",
-      "asset": "dream--text.pt",
       "model_name": "Dream-org/Dream-v0-Base-7B",
       "task": "text",
       "bytes": 22374691,
@@ -112,7 +100,6 @@
     {
       "id": "dreamcoder/python-single",
       "path": "checkpoints/dreamcoder/python-single.pt",
-      "asset": "dreamcoder--python-single.pt",
       "model_name": "Dream-org/Dream-Coder-v0-Base-7B",
       "task": "python-single",
       "bytes": 22375265,
@@ -121,7 +108,6 @@
     {
       "id": "dreamcoder/python-multi",
       "path": "checkpoints/dreamcoder/python-multi.pt",
-      "asset": "dreamcoder--python-multi.pt",
       "model_name": "Dream-org/Dream-Coder-v0-Base-7B",
       "task": "python-multi",
       "bytes": 22375251,
@@ -130,7 +116,6 @@
     {
       "id": "dreamcoder/multilingual-code",
       "path": "checkpoints/dreamcoder/multilingual-code.pt",
-      "asset": "dreamcoder--multilingual-code.pt",
       "model_name": "Dream-org/Dream-Coder-v0-Base-7B",
       "task": "multilingual-code",
       "bytes": 22375385,
@@ -139,7 +124,6 @@
     {
       "id": "llada-moe/python-single",
       "path": "checkpoints/llada-moe/python-single.pt",
-      "asset": "llada-moe--python-single.pt",
       "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
       "task": "python-single",
       "bytes": 12901217,
@@ -148,7 +132,6 @@
     {
       "id": "llada-moe/python-multi",
       "path": "checkpoints/llada-moe/python-multi.pt",
-      "asset": "llada-moe--python-multi.pt",
       "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
       "task": "python-multi",
       "bytes": 12901203,
@@ -157,7 +140,6 @@
     {
       "id": "llada-moe/multilingual-code",
       "path": "checkpoints/llada-moe/multilingual-code.pt",
-      "asset": "llada-moe--multilingual-code.pt",
       "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
       "task": "multilingual-code",
       "bytes": 12901337,
@@ -166,7 +148,6 @@
     {
       "id": "llada-moe/text",
       "path": "checkpoints/llada-moe/text.pt",
-      "asset": "llada-moe--text.pt",
       "model_name": "inclusionAI/LLaDA-MoE-7B-A1B-Base",
       "task": "text",
       "bytes": 12900643,

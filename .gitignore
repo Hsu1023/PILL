@@ -15,3 +15,24 @@ outputs/
 *.err
 *.out
 .DS_Store
+
+# Published probe weights
+!checkpoints/llada-base/python-single.pt
+!checkpoints/llada-base/python-multi.pt
+!checkpoints/llada-base/multilingual-code.pt
+!checkpoints/llada-base/text.pt
+!checkpoints/llada-instruct/python-single.pt
+!checkpoints/llada-instruct/python-multi.pt
+!checkpoints/llada-instruct/multilingual-code.pt
+!checkpoints/llada-instruct/text.pt
+!checkpoints/dream/python-single.pt
+!checkpoints/dream/python-multi.pt
+!checkpoints/dream/multilingual-code.pt
+!checkpoints/dream/text.pt
+!checkpoints/dreamcoder/python-single.pt
+!checkpoints/dreamcoder/python-multi.pt
+!checkpoints/dreamcoder/multilingual-code.pt
+!checkpoints/llada-moe/python-single.pt
+!checkpoints/llada-moe/python-multi.pt
+!checkpoints/llada-moe/multilingual-code.pt
+!checkpoints/llada-moe/text.pt
